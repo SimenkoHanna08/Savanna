@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мешканці савани</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('img/savanna-bg.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .media-section {
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+        }
+        video, audio {
+            display: block;
+            margin: 10px auto;
+            width: 100%;
+        }
+        iframe {
+            margin: 10px auto;
+            border: none;
+        }
+        .image-section {
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+        }
+        .image-section img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #00f;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Мешканці савани</h1>
+    </header>
+
+    <div class="content">
+        <!-- Зображення савани -->
+        <div class="image-section">
+            <h2>Савана</h2>
+            <img src="img/savanna.jpg" alt="Пейзаж савани">
+        </div>
+
+        <!-- Відео про тварин савани -->
+        <div class="media-section">
+            <h2>Леви у савані</h2>
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/ITub7NYg2Y2Y" allowfullscreen></iframe>
+        </div>
+
+        <!-- Аудіо звуки савани -->
+        <div class="media-section">
+            <h2>Звуки савани</h2>
+            <audio controls>
+                <source src="savanna-sounds.mp3" type="audio/mpeg">
+                Ваш браузер не підтримує даний аудіо-формат.
+            </audio>
+        </div>
+
+        <!-- Відео про жирафів -->
+        <div class="media-section">
+            <h2>Жирафи</h2>
+            <video width="320" height="240" controls>
+                <source src="giraffes.mp4" type="video/mp4">
+                Ваш браузер не підтримує даний відео-формат.
+            </video>
+        </div>
+
+        <!-- Відео про слонів -->
+        <div class="media-section">
+            <h2>Слони у савані</h2>
+            <video width="320" height="240" autoplay muted>
+                <source src="elephants.mp4" type="video/mp4">
+                Ваш браузер не підтримує даний відео-формат.
+            </video>
+        </div>
+    </div>
+
+    <footer>
+        <p>Дізнайтеся більше про мешканців савани. Завантажте матеріали <a href="https://drive.google.com/drive/folders/1YnX6sFADoixdBBxALa8CpNuU-HZ22iyC" target="_blank">тут</a>.</p>
+    </footer>
+</body>
+</html>
